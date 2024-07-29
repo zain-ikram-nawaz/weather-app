@@ -8,7 +8,7 @@ export default function Data() {
   const [seacrh, setSearch] = useState("karachi");
   const [data,setData]= useState("")
   const [image,setImage]=useState("")
-  const [weather,setWeather] = useState(weather)
+  const [weather,setWeather] = useState()
  
 
   const setValue = async () => { 
@@ -21,11 +21,7 @@ export default function Data() {
 return setWeather(items.main)
  })}
  console.log(weather)
-
-
-  };
-  useEffect(()=>{
-    if(weather == "Smoke"){
+  if(weather == "Smoke"){
       setImage("/clouds.png")
       }
       else if(weather == "Clear"){
@@ -47,6 +43,10 @@ return setWeather(items.main)
         setImage("/clouds.png")
       }
       else{weather === setImage("/clouds")}
+
+  };
+  useEffect(()=>{
+  
     setValue()
   },[])
   
