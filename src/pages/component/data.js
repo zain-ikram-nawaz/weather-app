@@ -74,7 +74,7 @@ return setWeather(items.main)
             </button>
           </div>
           <p className="flex justify-center mt-4">
-        <Image src={image} width={100} height={100}></Image> </p>
+        <Image src={image} width={100} height={100} alt="image loading wait.."></Image> </p>
           <p className="text-6xl font-semibold">
           {data?.main?.temp}<span>&#176;c</span>
           </p>
