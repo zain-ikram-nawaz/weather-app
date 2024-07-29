@@ -8,7 +8,7 @@ export default function Data() {
   const [seacrh, setSearch] = useState("karachi");
   const [data,setData]= useState("")
   const [image,setImage]=useState("")
-  const [weather,setWeather] = useState()
+  const [weather,setWeather] = useState("")
  
 
   const setValue = async () => { 
