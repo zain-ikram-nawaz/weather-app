@@ -22,31 +22,31 @@ return setWeather(items.main)
  })}
  console.log(weather)
   if(weather == "Smoke"){
-      setImage("/clouds.png")
+      setImage("./clouds.png")
       }
       else if(weather == "Clear"){
-        setImage("/sun.png")
+        setImage("./sun.png")
       }
       else if(weather == "Rain"){
-        setImage("/rain.png")
+        setImage("./rain.png")
       }
       else if(weather == "Drizzle"){
-        setImage("/drizzle.png")
+        setImage("./drizzle.png")
       }
       else if(weather == "Mist"){
-        setImage("/mist.png")
+        setImage("./mist.png")
       }
       else if(weather == "Clear"){
-        setImage("/sun.png")
+        setImage("./sun.png")
       }
       else if(weather == "Clouds"){
-        setImage("/clouds.png")
+        setImage("./clouds.png")
       }
-      else{weather === setImage("/clouds")}
+      else{weather === setImage("./clouds")}
 
   };
   useEffect(()=>{
-  
+    {weather}
     setValue()
   },[])
   
