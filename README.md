@@ -21,7 +21,8 @@ You can view the weather app by following the link to the live demo below:
 [https://weatherless.netlify.app/]
 
 
-
+## Acknowledgments
+This project was developed to practice API integration and enhance front-end development skills, with a focus on building responsive and dynamic applications.
 
 
 
