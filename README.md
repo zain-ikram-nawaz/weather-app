@@ -1,5 +1,24 @@
+# Weather App
+This repository contains the source code for a weather application that provides real-time weather updates for various locations. The app is built using modern web technologies and integrates with the OpenWeatherMap API for accurate weather data.
 
+## Features
+Real-Time Weather Data: Fetches and displays current weather conditions, including temperature, humidity, wind speed, and more.
+City Search: Users can search for weather information by entering a city name.
+Responsive Design: The app is fully responsive, offering a seamless experience across different devices.
+API Integration: Integrated with the OpenWeatherMap API to provide reliable weather data.
 
+##Technologies Used
+* HTML5
+* CSS3
+* Tailwind CSS (for styling)
+* JavaScript (ES6)
+* Next.js
+* OpenWeatherMap API
+
+## How to View
+You can view the weather app by following the link to the live demo below:
+
+[https://weatherless.netlify.app/]
 
 
 
