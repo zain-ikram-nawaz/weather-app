@@ -1,6 +1,6 @@
 # Weather App
 This repository contains the source code for a weather application that provides real-time weather updates for various locations. The app is built using modern web technologies and integrates with the OpenWeatherMap API for accurate weather data.
-![text](public/weather app.PNG)
+![text](public/weather app.png)
 ## Features
 Real-Time Weather Data: Fetches and displays current weather conditions, including temperature, humidity, wind speed, and more.
 City Search: Users can search for weather information by entering a city name.
